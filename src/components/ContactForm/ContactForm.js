@@ -2,8 +2,8 @@ import { Formik, Field } from 'formik';
 import * as Yup from 'yup';
 import { Form, FormField, ErrorMessage, AddButton } from './ContactForm.styled';
 import { useSelector, useDispatch } from "react-redux";
-import { addContact } from "../../redux/operations";
-import { selectContacts } from "../../redux/selectors";
+import { addContact } from "../../redux/contacts/operations";
+import { selectContacts } from "../../redux/contacts/selectors";
 
 const ContactSchema = Yup.object().shape({
   name: Yup.string()

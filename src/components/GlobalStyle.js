@@ -54,9 +54,9 @@ export const GlobalStyle = createGlobalStyle`
 `;
 
 export const Button = styled.button`
-  padding: 2px 8px;
+  padding: 4px 12px;
   border-radius: 4px;
-  font-size: 12px;
+  font-size: 14px;
   cursor: pointer;
   border: 1px solid grey;
 

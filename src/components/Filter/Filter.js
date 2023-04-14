@@ -1,7 +1,7 @@
 import { FilterWrap } from './Filter.styled';
 import { useSelector, useDispatch } from "react-redux";
-import { selectNameFilter } from "../../redux/selectors";
-import { setNameFilter } from "../../redux/filtersSlice";
+import { selectNameFilter } from "../../redux/contacts/selectors";
+import { setNameFilter } from "../../redux/contacts/filtersSlice";
 
 export const Filter = () => {
   const nameFilter = useSelector(selectNameFilter);
